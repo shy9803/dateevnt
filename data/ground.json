@@ -1,0 +1,14 @@
+[
+  {"emoji": "🐀", "name": "자", "oname": "子", "animal": "쥐", "lightdark": "양(陽)", "phase": "수(水)", "hour1": 23, "hour2": 1, "angle": 0, "cardinal": "북", "lunar": 11},
+  {"emoji": "🐂", "name": "축", "oname": "丑", "animal": "소", "lightdark": "음(陰)", "phase": "토(土)", "hour1": 1, "hour2": 3, "angle": 30, "cardinal": "북북동", "lunar": 12},
+  {"emoji": "🐅", "name": "인", "oname": "寅", "animal": "호랑이", "lightdark": "양(陽)", "phase": "목(木)", "hour1": 3, "hour2": 5, "angle": 60, "cardinal": "동북동", "lunar": 1},
+  {"emoji": "🐇", "name": "묘", "oname": "卯", "animal": "토끼", "lightdark": "음(陰)", "phase": "목(木)", "hour1": 5, "hour2": 7, "angle": 90, "cardinal": "동", "lunar": 2},
+  {"emoji": "🐉", "name": "진", "oname": "辰", "animal": "용", "lightdark": "양(陽)", "phase": "토(土)", "hour1": 7, "hour2": 9, "angle": 120, "cardinal": "동남동", "lunar": 3},
+  {"emoji": "🐍", "name": "사", "oname": "巳", "animal": "뱀", "lightdark": "음(陰)", "phase": "화(火)", "hour1": 9, "hour2": 11, "angle": 150, "cardinal": "남남동", "lunar": 4},
+  {"emoji": "🐎", "name": "오", "oname": "午", "animal": "말", "lightdark": "양(陽)", "phase": "화(火)", "hour1": 11, "hour2": 13, "angle": 180, "cardinal": "남", "lunar": 5},
+  {"emoji": "🐑", "name": "미", "oname": "未", "animal": "양", "lightdark": "음(陰)", "phase": "토(土)", "hour1": 13, "hour2": 15, "angle": 210, "cardinal": "남남서", "lunar": 6},
+  {"emoji": "🐒", "name": "신", "oname": "申", "animal": "원숭이", "lightdark": "양(陽)", "phase": "금(金)", "hour1": 15, "hour2": 17, "angle": 240, "cardinal": "서남서", "lunar": 7},
+  {"emoji": "🐔", "name": "유", "oname": "酉", "animal": "닭", "lightdark": "음(陰)", "phase": "금(金)", "hour1": 17, "hour2": 19, "angle": 270, "cardinal": "서", "lunar": 8},
+  {"emoji": "🐕", "name": "술", "oname": "戌", "animal": "개", "lightdark": "양(陽)", "phase": "토(土)", "hour1": 19, "hour2": 21, "angle": 300, "cardinal": "서북서", "lunar": 9},
+  {"emoji": "🐖", "name": "해", "oname": "亥", "animal": "돼지", "lightdark": "음(陰)", "phase": "수(水)", "hour1": 21, "hour2": 23, "angle": 330, "cardinal": "북북서", "lunar": 10}
+]

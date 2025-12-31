@@ -1,0 +1,57 @@
+@charset "UFT-8";
+/* common.css */
+
+/* 공통 영역 */
+body {width: 100%;}
+header, main, footer {width: 100%;}
+main, footer {overflow: hidden;}
+
+/* 헤더 영역 */
+header {display: flex; background: #be9a24; justify-content: space-evenly; height: 45px; position: fixed; z-index: 55;}
+h1 {width: 65%;}
+h1 > a {padding: 0 10px;}
+.gnb {width: 35%;}
+.gnb > ul {display: flex; width: 100%;}
+.gnb > ul > li {width: 50%; margin: 0 1%;}
+.gnb li a {display: block; width: 100%; text-align: center; padding: 10.5px 0; box-sizing: border-box;}
+.gnb > ul > li > a:hover {font-weight: bold; color: #5b331a;}
+.gnb > ul > li.on .submnu {display: block;}
+.submnu {background: #dcb88d; width: 100%; display: none;}
+.submnu > li > a:hover {font-weight: bold; text-decoration: underline; color: #5b331a;}
+
+.mbmnu {display: none;}
+
+/* 메인 영역 */
+main {max-width: 1200px; margin: 0 auto; padding-top: 45px; /* 헤더 높이만큼 여백 */}
+main > section, main > article {width: 100%; padding: 10px; box-sizing: border-box;}
+
+/* 푸터 영역 */
+footer > address {background: #666; color: #eee; font-style: normal; text-transform: uppercase; text-align: center; padding: 15px 0;}
+
+/* 태블릿 */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  h1 {width: 45%;}
+  .gnb {width: 55%;}
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+  h1 {width: 90%;}
+  .gnb {width: 10%; z-index: 100; height: 100%; background: #dedede; position: fixed; top: 0; transition: right 0.3s ease; right: -100%;}
+  .gnb.active {right: 0; width: 60%;}
+  .gnb > ul {display: block; padding-top: 45px;}
+  .gnb > ul > li {width: 100%; margin: 0;}
+  .gnb > ul > li > a {color: #5b331a; font-weight: bold;}
+
+  .submnu {display: block;}
+
+  .mbmnu {width: 30px; height: 30px; position: relative; top: 15%; right: 1%; display: block; z-index: 101;}
+  .mbmnu > span {border: 1px solid #333; width: 90%; display: block; position: absolute; right: 5%; box-sizing: border-box;}
+  .mbmnu > span:first-child {top: 0;}
+  .mbmnu > span:nth-child(2) {top: 50%;}
+  .mbmnu > span:last-child {bottom: 0;}
+
+  .gnb.active + .mbmnu > span:first-child {rotate: 45deg; top: 45%;}
+  .gnb.active + .mbmnu > span:nth-child(2) {display: none;}
+  .gnb.active + .mbmnu > span:last-child {rotate: 135deg; bottom: 45%;}
+}

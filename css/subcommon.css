@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* subcommon.css */
+
+/* 서브페이지 공통 */
+main {min-height: 90vh;}
+
+.subhead {background: #efefef;}
+.subhead > h2 {text-align: center; font-weight: bold; font-size: 20px; line-height: 42px; color: #5b331a;}
+.subhead > .subnavi > ul {display: flex; justify-content: center;}
+.subhead > .subnavi > ul > li {margin: 5px 15px;}
+.subhead > .subnavi > ul > li > a:hover {text-decoration: underline;}
+
+.subhead + article > h3 {font-size: 18px; line-height: 36px; margin-bottom: 10px;}
+
+.subnavi a {color: #a6734a;}

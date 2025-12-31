@@ -1,0 +1,12 @@
+[
+  {"name": "갑", "oname": "甲", "lightdark": "양(陽)", "color": "파랑(靑)", "yearnum": 4},
+  {"name": "을", "oname": "乙", "lightdark": "음(陰)", "color": "파랑(靑)", "yearnum": 5},
+  {"name": "병", "oname": "丙", "lightdark": "양(陽)", "color": "빨강(赤)", "yearnum": 6},
+  {"name": "정", "oname": "丁", "lightdark": "음(陰)", "color": "빨강(赤)", "yearnum": 7},
+  {"name": "무", "oname": "戊", "lightdark": "양(陽)", "color": "노랑(黃)", "yearnum": 8},
+  {"name": "기", "oname": "己", "lightdark": "음(陰)", "color": "노랑(黃)", "yearnum": 9},
+  {"name": "경", "oname": "庚", "lightdark": "양(陽)", "color": "하양(白)", "yearnum": 0},
+  {"name": "신", "oname": "辛", "lightdark": "음(陰)", "color": "하양(白)", "yearnum": 1},
+  {"name": "임", "oname": "壬", "lightdark": "양(陽)", "color": "검정(黑)", "yearnum": 2},
+  {"name": "계", "oname": "癸", "lightdark": "음(陰)", "color": "검정(黑)", "yearnum": 3}
+]
